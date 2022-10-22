@@ -26,10 +26,34 @@
     transition: all 0.6s ease;
 }
 
+/* J'ai mis en commentaire les elements du background */
 .card-left {
-    background-image: url(/images/image-product-desktop.jpg);
+    /* background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    display: flex;
+    background-color: rgb(242, 206, 162);
+}
+
+/* Ici l'image desktop */
+.card-left__image-desktop{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Ici l'image mobile */
+.card-left__image-mobile{
+    display: none;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
 }
 
 .card-right--title,

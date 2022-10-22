@@ -4,7 +4,7 @@
 /*  375px / 16px =  23em      */
 /*--------------------------*/
 
-@media (max-width: 23em) {
+@media (max-width: 625px) {
    
     .card {
         display: block;
@@ -29,4 +29,11 @@
         font-size: 3.2rem;
     }
 
+    .card-left__image-desktop{
+        display: none;
+    }
+
+    .card-left__image-mobile{
+        display: block;
+    }
 }
