@@ -1,27 +1,21 @@
 /*--------------------------*/
-/*  375px (Mobile) */
-/*--------------------------*/
-/*  375px / 16px =  23em      */
+/*  625px */
 /*--------------------------*/
 
 @media (max-width: 625px) {
-   
     .card {
         display: block;
-        height: 100vh;
-        padding: 8% 4%;
-        box-shadow: none;        
+        height: 94vh;
+        width: 90vw;
+        box-shadow: none;
     }
-    
+
     .card-left {
         height: 40%;
-        border-radius: 1.2rem 1.2rem 0 0 ;
-
     }
 
     .card-right {
         height: 60%;
-        border-radius: 0 0 1.2rem 1.2rem;
         padding: 2.35rem;
     }
 
@@ -29,11 +23,21 @@
         font-size: 3.2rem;
     }
 
-    .card-left__image-desktop{
+    .card-left__image-desktop {
         display: none;
     }
 
-    .card-left__image-mobile{
+    .card-left__image-mobile {
         display: block;
     }
+}
+
+/*--------------------------*/
+/*  375px (Mobile) */
+/*--------------------------*/
+/* Pour avoir la taille mobile en un click 
+(dans le responsive DevTool du navigateur)
+--------------------------------------- */
+
+@media (max-width: 375px) {
 }
